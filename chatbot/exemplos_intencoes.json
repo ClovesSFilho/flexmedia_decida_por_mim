@@ -1,0 +1,126 @@
+{
+  "descricao": "Dataset de frases exemplo mapeadas para categoria + preferência. Usado para treinar o classificador de intenção local (TF-IDF + Logistic Regression) como fallback quando a API do Gemini não está disponível.",
+  "idioma": "pt-BR",
+  "total_exemplos": 120,
+
+  "exemplos": [
+    { "frase": "estou com fome, quero algo doce", "categoria": "comer", "preferencia": "doce" },
+    { "frase": "to com vontade de chocolate", "categoria": "comer", "preferencia": "doce" },
+    { "frase": "queria um brigadeiro ou algo assim", "categoria": "comer", "preferencia": "doce" },
+    { "frase": "uma sobremesa cairia bem", "categoria": "comer", "preferencia": "doce" },
+    { "frase": "onde tem doceria por aqui", "categoria": "comer", "preferencia": "doce" },
+    { "frase": "bem que eu comeria um bolo", "categoria": "comer", "preferencia": "doce" },
+
+    { "frase": "quero um lanche salgado", "categoria": "comer", "preferencia": "salgado" },
+    { "frase": "to afim de um hambúrguer", "categoria": "comer", "preferencia": "salgado" },
+    { "frase": "um sanduíche agora seria ótimo", "categoria": "comer", "preferencia": "salgado" },
+    { "frase": "onde tem lanchonete", "categoria": "comer", "preferencia": "salgado" },
+    { "frase": "to com vontade de algo salgado", "categoria": "comer", "preferencia": "salgado" },
+    { "frase": "um salgado ia bem agora", "categoria": "comer", "preferencia": "salgado" },
+
+    { "frase": "quero comer algo saudavel", "categoria": "comer", "preferencia": "saudavel" },
+    { "frase": "to procurando salada", "categoria": "comer", "preferencia": "saudavel" },
+    { "frase": "algo light e nutritivo", "categoria": "comer", "preferencia": "saudavel" },
+    { "frase": "onde tem comida natural", "categoria": "comer", "preferencia": "saudavel" },
+    { "frase": "comida fit, saudável", "categoria": "comer", "preferencia": "saudavel" },
+    { "frase": "queria algo sem muita caloria", "categoria": "comer", "preferencia": "saudavel" },
+
+    { "frase": "quero fast food", "categoria": "comer", "preferencia": "fast-food" },
+    { "frase": "to com vontade de mc donalds", "categoria": "comer", "preferencia": "fast-food" },
+    { "frase": "onde tem burger king", "categoria": "comer", "preferencia": "fast-food" },
+    { "frase": "um combo rápido", "categoria": "comer", "preferencia": "fast-food" },
+    { "frase": "quero algo rapido para comer", "categoria": "comer", "preferencia": "fast-food" },
+    { "frase": "fast food mesmo, nada elaborado", "categoria": "comer", "preferencia": "fast-food" },
+
+    { "frase": "quero um café", "categoria": "comer", "preferencia": "cafe" },
+    { "frase": "onde tem starbucks", "categoria": "comer", "preferencia": "cafe" },
+    { "frase": "um cafezinho cairia bem", "categoria": "comer", "preferencia": "cafe" },
+    { "frase": "queria tomar um expresso", "categoria": "comer", "preferencia": "cafe" },
+    { "frase": "cafeteria por perto", "categoria": "comer", "preferencia": "cafe" },
+    { "frase": "to precisando de cafeina", "categoria": "comer", "preferencia": "cafe" },
+
+    { "frase": "quero comprar uma roupa", "categoria": "comprar", "preferencia": "roupa" },
+    { "frase": "to procurando uma calça jeans", "categoria": "comprar", "preferencia": "roupa" },
+    { "frase": "onde tem loja de roupa", "categoria": "comprar", "preferencia": "roupa" },
+    { "frase": "preciso de uma camisa nova", "categoria": "comprar", "preferencia": "roupa" },
+    { "frase": "queria comprar vestido", "categoria": "comprar", "preferencia": "roupa" },
+    { "frase": "to procurando renner ou zara", "categoria": "comprar", "preferencia": "roupa" },
+
+    { "frase": "quero ver celulares", "categoria": "comprar", "preferencia": "eletronico" },
+    { "frase": "onde tem loja de eletrônico", "categoria": "comprar", "preferencia": "eletronico" },
+    { "frase": "preciso comprar um notebook", "categoria": "comprar", "preferencia": "eletronico" },
+    { "frase": "to atras de fone de ouvido", "categoria": "comprar", "preferencia": "eletronico" },
+    { "frase": "queria ver um smartphone", "categoria": "comprar", "preferencia": "eletronico" },
+    { "frase": "loja de tecnologia", "categoria": "comprar", "preferencia": "eletronico" },
+
+    { "frase": "preciso comprar um presente", "categoria": "comprar", "preferencia": "presente" },
+    { "frase": "é aniversario da minha namorada", "categoria": "comprar", "preferencia": "presente" },
+    { "frase": "queria dar algo especial", "categoria": "comprar", "preferencia": "presente" },
+    { "frase": "o que tem de bom pra presentear", "categoria": "comprar", "preferencia": "presente" },
+    { "frase": "to procurando um presente pra minha mãe", "categoria": "comprar", "preferencia": "presente" },
+
+    { "frase": "onde fica a livraria", "categoria": "comprar", "preferencia": "livro" },
+    { "frase": "quero comprar um livro", "categoria": "comprar", "preferencia": "livro" },
+    { "frase": "to procurando a saraiva", "categoria": "comprar", "preferencia": "livro" },
+    { "frase": "queria ver lançamentos de livros", "categoria": "comprar", "preferencia": "livro" },
+    { "frase": "preciso de um livro de ficção", "categoria": "comprar", "preferencia": "livro" },
+
+    { "frase": "quero comprar maquiagem", "categoria": "comprar", "preferencia": "cosmetico" },
+    { "frase": "onde tem sephora", "categoria": "comprar", "preferencia": "cosmetico" },
+    { "frase": "to procurando perfume", "categoria": "comprar", "preferencia": "cosmetico" },
+    { "frase": "loja de cosméticos", "categoria": "comprar", "preferencia": "cosmetico" },
+    { "frase": "preciso de um batom novo", "categoria": "comprar", "preferencia": "cosmetico" },
+
+    { "frase": "quero sentar um pouco", "categoria": "descansar", "preferencia": "banco" },
+    { "frase": "onde tem banco pra descansar", "categoria": "descansar", "preferencia": "banco" },
+    { "frase": "preciso descansar as pernas", "categoria": "descansar", "preferencia": "banco" },
+    { "frase": "to cansado, queria sentar", "categoria": "descansar", "preferencia": "banco" },
+    { "frase": "area de descanso por favor", "categoria": "descansar", "preferencia": "banco" },
+
+    { "frase": "um cafe tranquilo pra conversar", "categoria": "descansar", "preferencia": "cafe-tranquilo" },
+    { "frase": "lugar calmo pra tomar café", "categoria": "descansar", "preferencia": "cafe-tranquilo" },
+    { "frase": "cafeteria silenciosa", "categoria": "descansar", "preferencia": "cafe-tranquilo" },
+    { "frase": "queria um café sem muito barulho", "categoria": "descansar", "preferencia": "cafe-tranquilo" },
+
+    { "frase": "preciso relaxar", "categoria": "descansar", "preferencia": "espaco-zen" },
+    { "frase": "onde tem spa", "categoria": "descansar", "preferencia": "espaco-zen" },
+    { "frase": "quero um espaço zen", "categoria": "descansar", "preferencia": "espaco-zen" },
+    { "frase": "to estressado, preciso de calma", "categoria": "descansar", "preferencia": "espaco-zen" },
+    { "frase": "lugar pra meditar", "categoria": "descansar", "preferencia": "espaco-zen" },
+
+    { "frase": "onde tem jardim", "categoria": "descansar", "preferencia": "jardim" },
+    { "frase": "quero um espaço verde", "categoria": "descansar", "preferencia": "jardim" },
+    { "frase": "area externa com plantas", "categoria": "descansar", "preferencia": "jardim" },
+    { "frase": "queria descansar ao ar livre", "categoria": "descansar", "preferencia": "jardim" },
+
+    { "frase": "quero assistir um filme", "categoria": "lazer", "preferencia": "cinema" },
+    { "frase": "onde fica o cinema", "categoria": "lazer", "preferencia": "cinema" },
+    { "frase": "to afim de ver um filme", "categoria": "lazer", "preferencia": "cinema" },
+    { "frase": "queria ir no cinemark", "categoria": "lazer", "preferencia": "cinema" },
+    { "frase": "que filmes estão em cartaz", "categoria": "lazer", "preferencia": "cinema" },
+    { "frase": "sessão de filme", "categoria": "lazer", "preferencia": "cinema" },
+
+    { "frase": "quero jogar fliperama", "categoria": "lazer", "preferencia": "arcade" },
+    { "frase": "onde tem arcade", "categoria": "lazer", "preferencia": "arcade" },
+    { "frase": "to afim de videogame", "categoria": "lazer", "preferencia": "arcade" },
+    { "frase": "tem sala de jogos aqui", "categoria": "lazer", "preferencia": "arcade" },
+    { "frase": "queria jogar com os amigos", "categoria": "lazer", "preferencia": "arcade" },
+
+    { "frase": "tem algum evento hoje", "categoria": "lazer", "preferencia": "evento" },
+    { "frase": "o que ta acontecendo no shopping", "categoria": "lazer", "preferencia": "evento" },
+    { "frase": "tem show por aqui", "categoria": "lazer", "preferencia": "evento" },
+    { "frase": "eventos culturais", "categoria": "lazer", "preferencia": "evento" },
+    { "frase": "apresentações hoje", "categoria": "lazer", "preferencia": "evento" },
+
+    { "frase": "quero passar na livraria", "categoria": "lazer", "preferencia": "livraria" },
+    { "frase": "folhear uns livros", "categoria": "lazer", "preferencia": "livraria" },
+    { "frase": "livraria pra passar o tempo", "categoria": "lazer", "preferencia": "livraria" },
+    { "frase": "queria ver as novidades literárias", "categoria": "lazer", "preferencia": "livraria" },
+
+    { "frase": "tem exposição aqui", "categoria": "lazer", "preferencia": "exposicao" },
+    { "frase": "onde tem galeria de arte", "categoria": "lazer", "preferencia": "exposicao" },
+    { "frase": "queria ver arte", "categoria": "lazer", "preferencia": "exposicao" },
+    { "frase": "exposicoes culturais", "categoria": "lazer", "preferencia": "exposicao" },
+    { "frase": "espaço cultural", "categoria": "lazer", "preferencia": "exposicao" }
+  ]
+}

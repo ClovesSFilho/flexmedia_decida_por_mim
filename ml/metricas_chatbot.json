@@ -1,0 +1,21 @@
+{
+  "tipo": "classificador_intencao_nlp",
+  "modelo_puro_ml": {
+    "acuracia_cv_categoria": 0.64,
+    "desvio_cv_categoria": 0.097,
+    "acuracias_preferencia": {
+      "comprar": 1.0,
+      "comer": 1.0,
+      "descansar": 1.0,
+      "lazer": 1.0
+    }
+  },
+  "sistema_hibrido": {
+    "acuracia_categoria": 0.98,
+    "acuracia_preferencia": 0.97,
+    "acuracia_ambos": 0.97
+  },
+  "total_exemplos": 100,
+  "n_categorias": 4,
+  "n_combinacoes": 19
+}

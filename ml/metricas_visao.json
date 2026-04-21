@@ -1,0 +1,32 @@
+{
+  "tipo": "classificador_presenca_visao_computacional",
+  "modelo_selecionado": "SVM",
+  "modelos": {
+    "svm": {
+      "nome": "SVM",
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "rf": {
+      "nome": "Random Forest",
+      "acuracia": 1.0,
+      "precisao": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "validacao_cruzada": {
+    "folds": 5,
+    "media": 0.96,
+    "desvio": 0.07999999999999999,
+    "scores": [
+      0.8,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+}
