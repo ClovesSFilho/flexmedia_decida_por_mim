@@ -98,7 +98,7 @@ A variável mais importante para prever aceitação é o **tempo de interação*
 
 ## Vídeo de demonstração
 
-[🎬 Assistir no YouTube (não listado)](**https://youtu.be/tST5qdB795g**)
+**https://youtu.be/tST5qdB795g**
 
 ---
 
